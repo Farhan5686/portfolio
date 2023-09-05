@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: left;
+    
+  }
+  .section {
+    margin-top: 20px;
+  }
+  .objectives {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .personal-info {
+    margin-top: 10px;
+  }
+  .experience {
+    margin-top: 20px;
+    counter-reset: experience-counter;
+  }
+  .experience li {
+    counter-increment: experience-counter;
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  .experience li::before {
+    content: counter(experience-counter) ".";
+    margin-right: 5px;
+    font-weight: bold;
+  }
+  .qualification {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .qualification th,
+  .qualification td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  .computer {
+    margin-top: 20px;
+  }
+  .languages {
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Muhammad Farhan</h1>
+  Jamia Ashrfia Feroz Pur Road Lahore
+  Cell#03445894596
+  <div class="section objectives">
+    <h2>CAREER OBJECTIVE</h2>
+    <p>Seeking for a promising future,with the opportunity to utilized my knowledge additional
+       skill in a congenial environment,aiming at the achievement of goals with hard working
+       dedication and distinction.</p>
+  </div>
+  <div class="section personal-info">
+    <h2>Personal Information</h2>
+    <p>Father,s Name    :    Ali Ahmed Jan<br>Date Of Birth: 01.04.1998<br>
+        C.N.I.C         :     13101.9980965.5<br>
+        Marital Status  :     Single<br>
+        Religion        :     Islam<br>
+        Nationality      :    Pakistani</p>
+  </div>
+  <!-- <div class="section">
+    <h2>Objectives</h2>
+    <ul>
+      <li>[Objective 1]</li>
+      <li>[Objective 2]</li>
+      <li>[Objective 3]</li>
+      <li>[Objective 4]</li>
+    </ul>
+  </div> -->
+  <div class="section experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>2 Year Teaching Experience</li>
+    </ul>
+  </div>
+  <div class="section qualification">
+    <h2>Qualifications</h2>
+    <table class="qualification">
+      <tr>
+        <th>Degree</th>
+        <th>University</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>F.A</td>
+        <td>Captaion Umair Shaheed School Birote</td>
+        <td>2022</td>
+      </tr>
+      <tr>
+        <td>Dars-e-Nizami</td>
+        <td>Jamia Ashrifa lahore</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>Matriculation</td>
+        <td>KpK Board</td>
+        <td>2012</td>
+      </tr>
+      <!-- Repeat rows for additional qualifications -->
+    </table>
+  </div>
+  <div class="section computer">
+    <h2>Computer Skills</h2>
+    <ul>
+      <li>Ms Word</li>
+      <li>Word Excel</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>
+  <div class="section languages">
+    <h2>Languages</h2>
+    <ul>
+      <li>Arabic</li>
+      <li>Urdu</li>
+      <li>English</li>
+      <li>Punjabi</li>
+    </ul>
+  </div>
+
+  <div class="section Refrance">
+    <h2>Languages</h2>
+    <ul>
+  <li>Will be furnished on demand. </li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>
